@@ -1,0 +1,98 @@
+.signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #f4f4f4;
+    padding: 2em;
+    padding-top: 80px; 
+    box-sizing: border-box;
+    min-height: calc(100vh - 80px); 
+}
+
+.signup h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+    color: #f44336;
+}
+
+.signup-form {
+    background-color: #fff;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px; 
+}
+
+.form-group select {
+    width: 100%;
+    padding: 0.75em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+.form-group select option {
+    color: #333;
+}
+
+.form-group {
+    margin-bottom: 1em;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5em;
+    color: #333;
+    font-size: 0.875em; 
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 0.75em;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 1em; 
+}
+
+.form-group textarea {
+    height: 100px;
+}
+
+.form-group input::placeholder,
+.form-group select option {
+    color: #aaa; 
+}
+
+.error-message {
+    color: #d32f2f;
+    margin-top: 1em;
+    font-size: 0.875em; 
+}
+
+button {
+    width: 100%;
+    padding: 0.75em;
+    border: none;
+    border-radius: 4px;
+    background-color: #f44336;
+    color: white;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 1em;
+}
+
+button:hover {
+    background-color: #d32f2f;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}

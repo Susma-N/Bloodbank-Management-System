@@ -1,0 +1,69 @@
+.simulation-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    background-color: #fff;
+  }
+  
+  .simulation-step {
+    text-align: center;
+  }
+  
+  .simulation-step img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .simulation-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  .simulation-controls button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .simulation-controls button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .simulation-controls button:hover:not(:disabled) {
+    background-color: #0056b3;
+  }
+  
+  .video-tabs {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .video-tabs button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  .video-tabs button.active {
+    background-color: #0056b3;
+  }
+  
+  .video-tabs button:hover {
+    background-color: #0056b3;
+  }
+  

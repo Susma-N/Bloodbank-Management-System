@@ -1,0 +1,70 @@
+
+.background-container {
+  min-height: 100vh; 
+  width: 100%;
+  background-image: url('../assets/login-background.webp'); 
+  background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center; 
+  justify-content: center; 
+}
+
+.login-choice {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 60vh; 
+  width: 80%;
+  background: rgba(0, 0, 0, 0.6); 
+  border-radius: 12px;
+  padding: 30px;
+  box-sizing: border-box; 
+  text-align: center; 
+  margin-top: 20vh;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-button {
+  width: 220px; 
+  height: 50px; 
+  margin: 10px 0; 
+  border-radius: 25px;
+  font-size: 1.1em; 
+  font-weight: bold; 
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.login-button.donor {
+  background-color: #f44336; 
+  color: white;
+}
+
+.login-button.donor:hover {
+  background-color: #d32f2f; 
+  transform: translateY(-2px); 
+}
+
+.login-button.patient {
+  background-color: #4caf50; 
+  color: white;
+}
+
+.login-button.patient:hover {
+  background-color: #388e3c; 
+  transform: translateY(-2px); 
+}
+
+.or-text {
+  margin: 20px 0; 
+  font-size: 1.2em; 
+  color: white;
+}

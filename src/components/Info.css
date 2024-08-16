@@ -1,0 +1,34 @@
+.blood-donation-info {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    color: #ffffff; 
+    background-color: rgba(0, 0, 0, 0.7); 
+    border-radius: 8px; 
+}
+
+.blood-donation-info h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #ffffff; 
+}
+
+.blood-donation-info section {
+    margin-bottom: 20px;
+}
+
+.blood-donation-info h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #f44336; 
+}
+
+.blood-donation-info ul, .blood-donation-info ol {
+    margin-left: 20px;
+    color: #ffffff;
+}
+
+.blood-donation-info p {
+    line-height: 1.6;
+    color: #ffffff;
+}
