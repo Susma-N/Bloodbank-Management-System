@@ -1,0 +1,9 @@
+com\example\bloodbank\service\OtpService.class
+com\example\bloodbank\service\UserService.class
+com\example\bloodbank\config\WebConfig.class
+com\example\bloodbank\model\User.class
+com\example\bloodbank\repository\OtpRepository.class
+com\example\bloodbank\repository\UserRepository.class
+com\example\bloodbank\model\Otp.class
+com\example\bloodbank\controller\AuthController.class
+com\example\bloodbank\DemoApplication.class
